@@ -1,0 +1,210 @@
+@charset "EUC-KR";html{
+    height: 100%;
+}
+.bodyContainer{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+    width: 25%;
+    /*height: 40%;*/
+    height: fit-content;
+    background-color:  #1C2024;
+    color: white;
+}
+
+.mainBox2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+    width: 25%;
+    height: 70%;
+    background-color:  #1C2024;
+    color: white;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    /*height: 15%;*/
+    height: 60px;
+    color: black;
+}
+
+#loginBoxColor{
+    background-color:  orange;
+    height: 10%;
+    width: 100%;
+}
+
+#signUpBoxColor{
+    background-color:  #D8D8D8;
+    height: 10%;
+    width: 100%;
+}
+
+#loginTitle{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+
+#signUpTitle{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D8D8D8;
+    color: gray;
+}
+
+.centerText{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 90%;
+    color: white;
+}
+
+#signUpInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 90%;
+    height: 85%;
+    color: white;
+}
+
+.userInfo{
+    width: 49.5%;
+    border: 1px solid white;
+    background-color: #15191C;
+    color: white;
+    height: 35px;
+}
+
+#loginBtn{
+    background-color:  orange;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    border: none;
+}
+
+#signUpBtn{
+    background-color:  orange;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    border: none;
+}
+
+.title{
+    font-size: 145%;
+    font-weight: 600;
+}
+
+.inputTitle{
+    font-size: 90%;
+}
+
+.wrong{
+    border: 2px solid #5F1919;
+}
+
+.inputContainer{
+    margin-top: 1%;
+    width: 200%; 
+    height: 40px;
+    display: flex;
+}
+
+.alertMsg{
+    background-color:  orange;
+    display: inline-block; 
+    margin-left: 1%;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: fit-content;
+    font-size: small;
+    font-weight: bold;
+}
+
+#radioContainerParent{
+    margin-top: -5px;
+    margin-bottom: -25px;
+}
+
+#radioContainer{
+    width: 50%;
+    height: 30px;
+}
+
+#signedUp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 90%;
+    height: 85%;
+    color: white;
+}
+
+#loggedIn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 90%;
+    height: 85%;
+    color: white;
+}
+
+#pswdMsg{
+    max-width: 40%;
+    text-align: center;
+}
+
+.checked{
+    background-image: url(../image/check.JPG);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+.bold{
+    font-weight: 600;
+}
