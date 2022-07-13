@@ -1,3 +1,4 @@
-# Web-Programming
-Web programming done at 3-2 semester
-Read GAME VIEW REPORT.docx
+# Game View : Game Review Website Project
+## Theme
+Page has 3 Theme. User can change it by theme button.
+
